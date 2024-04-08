@@ -1,4 +1,4 @@
-const form = document.forms('loginform');
+const form = document.forms['loginform'];
 
 form.addEventListener('submit', function handleFormSubmit(event){
     event.preventDefault();
